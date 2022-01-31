@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(37, 36, 36);
+
+}
+
+h1{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;  
+}
+
+h2{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;  
+}
+
+h3{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;  
+}
+
+a{
+    text-decoration: none;
+}
+
+.videos1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.videos1 .v1{
+    margin-right: 5px;
+}
+
+.videos2 .v3{
+    margin-right: 5px;
+}
+.videos2{
+    display: flex;
+    justify-content: center;
+}
+
+.wordpress{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.raspberry{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.hardware{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.marketing{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
