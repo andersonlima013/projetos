@@ -6,12 +6,13 @@
 }
 
 body{
-    background-color: rgb(33, 51, 59);
+    background-color: rgb(6, 41, 43);
     color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
 }
 
 .container{
