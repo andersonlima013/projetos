@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Source+Sans+Pro&display=swap');
+
+*{
+    padding: 10;
+    margin: 10;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*
+Medidas absolutas
+cm -> centimetro, mm -> milimetro, in -> polegada, px -> pixel, pt -> pontos,
+pc -> paica
+*/
+
+/*
+Medidas relativas
+em -> medida relativa ao M maiúsculo de alguma letra
+ex -> tamanho da altura x
+rem -> relativo a fonte do body
+vw -> view width, relativo a largura da vp
+vh -> view height, relativo a altura da vp
+*/
+
+/*A W3C recomenda utilizar px e em, dando preferencia para o EM!!!*/
+
+/*
+A forma para modificar a fonte do documento é utilizando o CSS (inline, interno ou externo) e modificar o parametro font-family.
+
+Existem também os parametros font-weight, para peso da fonte e o font-size para o tamanho.
+
+Usa-se também, por conveniencia, um método chamado shorthand, que declara todos os parametros em uma unica linha. 
+
+Ex: font: (style) (peso) (tamanho) (tipo da fonte)
+    font: italic bold 1em 'Work Sans', sans-serif;
+*/
+
+/*
+Para importar fontes do google fonts, você já sabe. 
+*/
