@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+p{
+    padding-bottom: 3px;
+    text-align: justify;
+}
+
+main{
+    text-align: justify;
+    background-color: white;
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+    width: 600px;
+    box-shadow: 4px 4px 8px #0D5C63;
+    border-radius: 5px;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #247B7B;
+}

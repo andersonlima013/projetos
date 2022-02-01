@@ -58,25 +58,7 @@ a{
     justify-content: center;
 }
 
-.wordpress{
-    justify-content: center;
-    display: flex;
-    margin-top: 30px;
-}
-
-.raspberry{
-    justify-content: center;
-    display: flex;
-    margin-top: 30px;
-}
-
-.hardware{
-    justify-content: center;
-    display: flex;
-    margin-top: 30px;
-}
-
-.marketing{
+.wordpress, .raspberry, .hardware, .marketing{
     justify-content: center;
     display: flex;
     margin-top: 30px;
