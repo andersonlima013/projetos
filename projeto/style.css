@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3.2em;
+    font-style: italic;
+    font-weight: 600;
+}
+
+hr{
+    background-color: #2E4052;
+    height: 4px;
+}
+
+p{
+
+    font-size: 1.2em;
+    margin-bottom: 1px;
+}
+
+body{
+    background-color: #2E4052;
+}
+
+main{
+    font-family: 'Inter', sans-serif;
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+}
+
+.conteudo{
+    background-color: #fff;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    position: relative;  
+    width: 90vw;
+    height: 80vw; 
+    box-shadow: 30px -30px 8px black;
+    border-radius: 10px;
+}
+
+.conteudo p, h1{
+    margin-top: 20px;
+    text-align: justify;
+
+}
+
+.fav img{
+    width: 50px;
+    height: 50px;
+}
+
+.fav .git{
+    display: flex;
+    position: absolute;
+    transform: translate(80vw, -31vh);
+}
+
+.fav .link{
+    display: flex;
+    position: absolute;
+    transform: translate(75vw, -31vh);
+}
