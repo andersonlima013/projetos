@@ -1,75 +1,63 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600&display=swap');
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1{
-    font-size: 3.2em;
-    font-style: italic;
-    font-weight: 600;
-}
-
-hr{
-    background-color: #2E4052;
-    height: 4px;
-}
-
-p{
-
-    font-size: 1.2em;
-    margin-bottom: 1px;
-}
-
 body{
-    background-color: #2E4052;
-}
-
-main{
-    font-family: 'Inter', sans-serif;
-    width: 90vw;
-    height: 80vh;
+    background-color: #e6e8e6;
+    max-width: 100vw;
+    height: 100vh;
     margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
-.conteudo{
-    background-color: #fff;
-    margin-top: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 4px;
-    position: relative;  
-    width: 90vw;
-    height: 80vw; 
-    box-shadow: 30px -30px 8px black;
-    border-radius: 10px;
+.titulo h1{
+    text-align: center;
 }
 
-.conteudo p, h1{
-    margin-top: 20px;
+.img-texto img{
+    width: 700px;
+    margin-right: 20px;
+    
+}
+
+.img-texto{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.lista-pacientes{
     text-align: justify;
-
+    margin-left: 25px;   
+    padding: 25px;
 }
 
-.fav img{
+.lista-pacientes li{
+    margin-top: 10px;
+}
+
+.second-content h2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer{
+    padding: 15px;
+    display: flex;
+    border-top: 2px solid black;
+    justify-content:space-around;
+    align-items: center;
+}
+
+footer img{
     width: 50px;
-    height: 50px;
+    border-radius: 4px;
 }
 
-.fav .git{
-    display: flex;
-    position: absolute;
-    transform: translate(80vw, -31vh);
-}
-
-.fav .link{
-    display: flex;
-    position: absolute;
-    transform: translate(75vw, -31vh);
+footer h3{
+    font-size: 3em;
 }
