@@ -1,6 +1,10 @@
 #readme
 
-Botão com três modos de exibição
+Botão com três modos de exibição.
+
+<---------------------------------------------------------------------->
+
+
 *Fora de foco*
 
 ![image](https://user-images.githubusercontent.com/95974063/154113621-1d2d621a-abad-45d1-9607-d01fffbda44d.png)
