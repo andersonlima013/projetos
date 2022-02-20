@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e6e8e6;
+    max-width: 100vw;
+    height: 100vh;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo h1{
+    text-align: center;
+}
+
+.img-texto img{
+    width: 700px;
+    margin-right: 20px;
+    
+}
+
+.img-texto{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.lista-pacientes{
+    text-align: justify;
+    margin-left: 25px;   
+    padding: 25px;
+}
+
+.lista-pacientes li{
+    margin-top: 10px;
+}
+
+.second-content h2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer{
+    padding: 15px;
+    display: flex;
+    border-top: 2px solid black;
+    justify-content:space-around;
+    align-items: center;
+}
+
+footer img{
+    width: 50px;
+    border-radius: 4px;
+}
+
+footer h3{
+    font-size: 3em;
+}
